@@ -1,5 +1,6 @@
-@media screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 html {
+  background-image: url("back.jpg");
   background-color: #252839;
   margin-left: 200px;
   margin-right: 200px;
@@ -8,6 +9,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-image: url("sky.jpg");
   border-style: double;
   border-color: #62bcfa;
   background-color: #677077;
@@ -81,7 +83,7 @@ padding-right: 5px;
 }
 
 #topnav a:hover{
-  color: white
+  color: darkcyan;
 }
 
 #topnav a{
@@ -92,4 +94,13 @@ padding-right: 5px;
 
   #bottompad {
     padding-bottom: 100px;
+}
+}
+
+#foot {
+  
+  text-align: center;
+  font-size: 12px;
+  
+  
 }
