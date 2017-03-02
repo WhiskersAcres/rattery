@@ -1,106 +1,68 @@
-@media only screen and (min-width: 600px) {
-  html {
-    background-image: url("back.jpg");
-    background-color: #252839;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="aboutmobile.css">
+    <title>Meet Our rats!</title>
+  </head>
+  <body>
 
+    <h1 id=AboutUs>Meet Our Rats!</h1>
 
-  body {
-    font-family: "Open Sans", sans-serif;
-    border-style: double;
-    border-color: #62bcfa;
-    background-color: #677077;
-    border-width: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 300px;
-    padding-bottom: 100px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-image: url("sky.jpg");
-
-
-
-  }
-
-  #banner {
-    float: center;
-  }
-  #welcome {
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  #maincontent {
-    text-align: center;
-    font-size: 18px;
-    margin-top:50px;
-    margin-right: 100px;
-    margin-left: 100px;
-    word-wrap: normal;
-    float: center;
-    padding-left: 100px;
-    padding-right: 100px;
-
-
-  } 
-
-  #topnav #nope {
-    border-right-width: 0px;
-    padding-right: 5px;
-  }
-
-  #topnav{
-    list-style:none;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 10px;
-    text-align:center;
-    border: solid;
-    border-color: #bccbde;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: #e6e9f0;
-
-
-  }
-  #topnav li{
-    display:inline;
-    padding-right: 20px;
-    padding-left: 15px;
-    border-right: solid;
-
-  }
-
-  #topnav a:hover{
-    color: darkcyan;
-  }
-
-  #topnav a{
-    display:inline-block;
-    text-decoration: none;
-    color: Black;
-  }
-
-  #bottompad {
-    padding-bottom: 100px;
-  }
-}
-
-#foot {
-
-  text-align: center;
-  font-size: 12px;
-
-
-}
+    <nav id=topnav>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About       Us</a></li>
+      <li><a href="ourrats.html">Our rats</a></li>
+      <li><a href="buy.html">Buy</a></li>
+      <li><a href="chat.html">Chat</a></li>
+      <li><a href="breeder.html">Breeders</a></li>
+      <li id=nope><a href="contactus.html">Contact Us</a></li>
+    </nav>  
+    
+    <p id=maincontent>
+      <strong>Come meet our Rat family!       </strong>
+    </p>
+    
+    <p id=maincontent>
+      Will be updated soon! Please check in later!
+    </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
