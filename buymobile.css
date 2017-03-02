@@ -1,0 +1,84 @@
+@media only screen and (min-width: 0px) {
+
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: lightblue;
+    border-style: double;
+    border-color: darkcyan;
+    border-width: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 25px;
+    background-image: url("sky.jpg");
+
+
+  }
+  #AboutUs {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #topnav #nope {
+
+    border-right-width: 0px;
+    padding-right: 5px;
+  }
+
+
+  #maincontent {
+    font-size: 18px;
+    margin-top:10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+
+  } 
+
+  #topnav a {
+    color: black;
+    text-decoration: none;
+  }
+  #topnav li {
+    border-bottom: none;
+    border-right: none;
+    border-width: 1px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline;
+
+
+  }
+
+  #topnav {
+    border: solid;
+    list-style:none;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #e6e9f0;
+    border-color: #677077;
+  }
+  #line {
+    width: 50%;
+
+  }
+
+  #space{
+    margin-top: 25px;
+
+  }
+
+
+}
